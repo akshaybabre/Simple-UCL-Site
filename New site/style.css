@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  background-color:  #171414;
+   flex-direction: column;
+}
+header {
+   width: 100%;
+   background: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar img {
+  height: 100px;
+  margin: 20px 80px;
+  
+}
+.links {
+  list-style: none;
+  display: flex;
+  margin-top: 60px;
+  gap: 100px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+a:hover {
+  color: aqua;
+}
+.links a {
+  text-decoration: none;
+}
+.navbar .btn{
+  margin-top: 57px;
+  margin-right: 40px;
+  padding: 5px 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  background-color:rgb(15, 3, 248);
+  color: aqua;
+  position: relative;
+}
+.btn:hover {
+  scale:1.15;
+  background-color:  rgb(4, 201, 250);
+  color: blue;
+}
+main {
+  width: 100vw;
+  justify-items: center;
+  text-align: center;
+  margin-top: 150px;
+  color:#fff ;
+}
+span {
+  color: aqua;
+}
+main h1 {
+   font-size: 50px; 
+   margin-bottom: 10px;
+}
+main p {
+  line-height: 25px;
+  color: rgb(243, 243, 244);
+  margin-bottom: 30px;
+}
+main button {
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(17, 231, 246);
+    color: #000;
+    transition: 0.3s;
+}
+main button:hover {
+    transform: translateY(-10px);
+}
+ 
+@media (max-width: 1111px) {
+ .links {
+    display: none;
+  }
+}
+@media (max-width: 1020px) {
+  main p {
+    font-size: 12px;
+  }
+  main h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width:770px) {
+  main p {
+    font-size: 10px;
+  }
+  main h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width:630px) {
+  main p {
+    font-size: 8px;
+  }
+  main h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width:515px) {
+  main p {
+    font-size: 6px;
+  }
+  main h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width:475px) {
+   header .btn {
+      display: none;
+    }
+    .navbar img {
+      margin-left: 140px;
+    }
+}
+@media (max-width:385px) {
+  main h1 {
+    font-size: 20px;
+  }
+  main p {
+    font-size: 5px;
+  }
+}
+
+
+
+
+
+
+
